@@ -1,9 +1,7 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 16px; margin: 24px 0;">
-<img src="./figures/ant-bailing.png" width="60" alt="Ming-3.0-tts Logo" />
-  <h1 style="margin: 0;">
-        Ming-3.0-tts
-  </h1>
-</div>
+<h1 align="center">
+  <img src="./figures/ant-bailing.png" width="60" alt="Ming-3.0-tts Logo" align="middle" />
+  Ming-3.0-tts
+</h1>
 
 <p align="center">Multilingual speech synthesis with free-form and paralinguistic control.</p>
 
