@@ -200,7 +200,7 @@ These 62 base voices provide 429 selectable variants. Descriptions below use the
 | :--- | :--- | :--- | :--- |
 | US_Emma | female | American | assistants, narration, conversational product voice |
 | US_James | male | American | narration, explainer and documentary reads |
-| US_Stella | - | - | - |
+| US_Stella | - | - | narration, conversational, warm, youthful |
 | UK_George | male | British | audiobooks, formal announcements |
 | UK_Charlotte | female | British | audiobooks, measured narration |
 
