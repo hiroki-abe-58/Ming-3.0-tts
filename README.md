@@ -464,6 +464,8 @@ Tiny achieves **SOTA speaker similarity** in Chinese and English. 0.5b has lower
   </tbody>
 </table>
 
+<sub>Each open-source model was evaluated using its recommended inference settings under a unified ASR-based WER/CER evaluation protocol.</sub>
+
 Tiny achieves **SOTA WER in German and Spanish**, ranks **2nd** in French WER and ties for **2nd** in Japanese CER. 0.5b is more accurate in Korean; speaker similarity remains a gap for both models.
 
 ### Paralinguistic control (NVBench)
