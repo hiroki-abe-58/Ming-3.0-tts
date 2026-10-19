@@ -57,7 +57,7 @@ Text and task-specific control tokens condition a language model with a DiT patc
 - [x] Ming-3.0-tts-0.5b weights and inference code
 - [x] Ming-3.0-tts-tiny weights and inference code
 - [x] Ming-3.0-tts-tiny benchmarks
-- [ ] vLLM-Omni accelerated inference
+- [x] vLLM-Omni accelerated inference
 - [ ] Technical report
 
 ## Contents

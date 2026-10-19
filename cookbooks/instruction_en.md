@@ -71,7 +71,18 @@ The instructions below are preserved exactly as used, including the Chinese inpu
 
 The examples assume the model has been loaded as described in the README. The synthesis texts are illustrative.
 
-**0.5B:**
+### English sports coach (0.5B)
+
+```python
+model.synthesize(
+    task="FREEFORM",
+    text="Keep your eyes forward and your shoulders relaxed. One more round—you can do this!",
+    instruction="Sound like an encouraging sports coach, energetic and firm without shouting.",
+    use_zero_spk_emb=True,
+)
+```
+
+### English warm storytelling (0.5B)
 
 ```python
 model.synthesize(
@@ -82,7 +93,9 @@ model.synthesize(
 )
 ```
 
-**Tiny:** omit `prompt_wav` and `prompt_text`.
+### Chinese bedtime story (Tiny)
+
+Omit `prompt_wav` and `prompt_text`.
 
 ```python
 tts.generate(

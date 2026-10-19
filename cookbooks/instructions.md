@@ -64,7 +64,18 @@
 
 以下为配套调用示例，假设模型已按 README 加载；合成正文仅作使用演示。
 
-**0.5B：**
+### 英文运动教练（0.5B）
+
+```python
+model.synthesize(
+    task="FREEFORM",
+    text="Keep your eyes forward and your shoulders relaxed. One more round—you can do this!",
+    instruction="Sound like an encouraging sports coach, energetic and firm without shouting.",
+    use_zero_spk_emb=True,
+)
+```
+
+### 英文温暖叙事（0.5B）
 
 ```python
 model.synthesize(
@@ -75,7 +86,9 @@ model.synthesize(
 )
 ```
 
-**Tiny：** 不传 `prompt_wav` 和 `prompt_text`。
+### 中文睡前故事（Tiny）
+
+不传 `prompt_wav` 和 `prompt_text`。
 
 ```python
 tts.generate(
