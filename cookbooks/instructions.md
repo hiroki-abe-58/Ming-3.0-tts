@@ -553,7 +553,7 @@ Dialects are not selected here; see the `dialect` control below.
 </div>
 
 
-*479 built-in voices; the table above is the full list.*
+*100+ Chinese voices; the table above lists all selectable entries, including emotion-specific variants of the same voice.*
 
 ### English voices **new**
 

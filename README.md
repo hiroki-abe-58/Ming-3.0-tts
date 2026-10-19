@@ -7,7 +7,7 @@
 
 <p align="center">🤗 <a href="https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5b">Hugging Face</a>｜ 🤖 <a href="https://modelscope.cn/models/inclusionAI/Ming-3.0-tts-0.5b">ModelScope</a> ｜ 📑 <a href="https://nomorecoding.github.io/Ming-3.0-tts/">Blog & Demos</a> ｜ 💬 <a href="https://qr.dingtalk.com/action/joingroup?code=v1,k1,O7MiZqrOrB2c7PnUZVBNvmDh/6tghNLMEtXqMteyRIpuRVJIwrSsXmL8oFqU5ajJ&_dt_no_comment=1&origin=11">DingTalk(钉钉)</a></p>
 
-Ming-3.0-tts provides two speech-generation models: **0.5b**, a dense model built on Qwen2.5-0.5B, and **tiny**, a MoE model built on Ling V3 (7.9B total · 1.3B active).
+Ming-3.0-tts provides two speech-generation models: **0.5b**, a dense model, and **tiny**, a MoE model built on Ling V3 (7.9B total · 1.3B active).
 
 ## <a id="artificial-analysis-leaderboards"></a>🏆 Artificial Analysis Leaderboards
 
@@ -27,7 +27,7 @@ Within Pronunciation Robustness, Ming-3.0-tts also ranks **1st** on Expanding Sh
 
 ## Featured Abilities
 
-- **Voice creation:** clone a reference voice, design one from text, or choose from 479 Chinese and five English built-in voices.
+- **Voice creation:** clone a reference voice, design one from text, or choose from 100+ Chinese and five English built-in voices.
 - **Free-form control:** guide speech delivery with natural-language instructions.
 - **Paralinguistic control:** insert 14 inline tags for laughter, sighs, and other vocal expressions in Chinese or English.
 - **Languages and dialects:** synthesize Chinese, English, German, Spanish, French, Korean and Japanese, plus Sichuanese and Cantonese.
@@ -397,7 +397,7 @@ model.synthesize(
 | 灵小柔 | Chinese | Bright, sweet young female voice with clear diction. Assistants and customer service. |
 | 灵楷 | Chinese | Warm, resonant young male voice. Radio, documentary and audiobooks. |
 
-The full list of 479 Chinese and five English voices is in [cookbooks/instructions.md](cookbooks/instructions.md#built-in-premium-voices).
+Over 100 Chinese voices and five English voices are available. See [cookbooks/instructions.md](cookbooks/instructions.md#built-in-premium-voices) for the full list, including emotion-specific variants.
 
 ## <a id="performance"></a>Performance
 
