@@ -270,7 +270,7 @@ python tools/preflight_tiny.py --model_path /path/to/Ming-3.0-tts-tiny
 
 ## <a id="cookbook"></a>Cookbook
 
-Ordered the way a line gets made: who speaks, how it is said, what goes beyond the words, and where it is heard. Each example is one task; controls from another task are rejected. Texts and controls are the ones on the [demo page](https://nomorecoding.github.io/Ming-3.0-tts/), so you can compare against what you hear there. 0.5b API; full value lists in [cookbooks/instructions.md](cookbooks/instructions.md), every task end to end in [cookbooks/cookbook.ipynb](cookbooks/cookbook.ipynb).
+Ordered the way a line gets made: who speaks, how it is said, what goes beyond the words, and where it is heard. Each example is one task; controls from another task are rejected. Texts and controls are the ones on the [demo page](https://nomorecoding.github.io/Ming-3.0-tts/), so you can compare against what you hear there. 0.5b API; full value lists in [English](cookbooks/instruction_en.md) / [简体中文](cookbooks/instructions.md), every task end to end in [cookbooks/cookbook.ipynb](cookbooks/cookbook.ipynb).
 
 ### Who speaks
 
@@ -287,7 +287,7 @@ model.synthesize(
 )
 ```
 
-**Built-in Voices**: recommended **US_James**, **US_Stella**, **灵小柔** and **灵楷**. See the [full voice list](cookbooks/instructions.md#built-in-premium-voices).
+**Built-in Voices**: recommended **US_James**, **US_Stella**, **灵小柔** and **灵楷**. See the [full voice list](cookbooks/instruction_en.md#built-in-premium-voices).
 
 ```python
 model.synthesize(
@@ -397,7 +397,7 @@ model.synthesize(
 | 灵小柔 | Chinese | Bright, sweet young female voice with clear diction. Assistants and customer service. |
 | 灵楷 | Chinese | Warm, resonant young male voice. Radio, documentary and audiobooks. |
 
-Over 100 Chinese voices and five English voices are available. See [cookbooks/instructions.md](cookbooks/instructions.md#built-in-premium-voices) for the full list, including emotion-specific variants.
+Over 100 Chinese voices and five English voices are available. See [the voice catalog](cookbooks/instruction_en.md#built-in-premium-voices) for the full list, including emotion-specific variants.
 
 ## <a id="performance"></a>Performance
 
