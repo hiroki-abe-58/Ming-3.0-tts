@@ -38,9 +38,7 @@ Capabilities use separate task modes, not arbitrary combinations. See the [Cookb
 
 ## <a id="demo-video"></a>Demo Video
 
-<p align="center">
-    <a href="https://nomorecoding.github.io/Ming-3.0-tts/static/videos/tts11.mp4"><img src="./figures/video_tts11.jpg" width="760" alt="Ming-3.0-tts demo video"/></a>
-</p>
+https://github.com/user-attachments/assets/4062ba4c-7d2d-4a45-a19b-760100b79f9c
 
 ## Architecture
 
