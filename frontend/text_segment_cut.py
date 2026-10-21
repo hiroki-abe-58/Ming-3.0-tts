@@ -66,12 +66,14 @@ def split_and_group_sentences(text, group_by_lang=False):
 def get_semantic_length(text):
     """
     计算字符串的语义长度。
-    一个汉字计为1，一个连续的英文字母串（单词）计为1。
+    一个汉字或一个日文假名计为1，一个连续的英文字母串（单词）计为1。
     """
     chinese_char_count = len(re.findall(r'[\u4e00-\u9fa5]', text))
+    # Japanese kana (hiragana, katakana) count like hanzi; otherwise Japanese fragments come out about three times longer.
+    kana_count = len(re.findall(r'[\u3040-\u30ff]', text))
     # [a-zA-Z]+ 匹配一个或多个连续的英文字母
     english_word_count = len(re.findall(r'[a-zA-Z]+', text))
-    return chinese_char_count + english_word_count
+    return chinese_char_count + kana_count + english_word_count
     
 def has_valid_content(text):
     """
